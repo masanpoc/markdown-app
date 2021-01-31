@@ -1,0 +1,29 @@
+textarea {
+    width: 95%;
+    height: 80%;
+    border: 1px solid gray;
+    overflow: auto;
+    background-color: #eceff5;
+}
+::-webkit-resizer {
+    display: none;
+  }
+/* 
+.resize {
+    border: none;
+    background: url('./zoom.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 0;
+    outline: none;
+    margin-top: 5px;
+    margin-right: 5px;
+} */
+
+.resize:hover {
+    cursor: pointer;
+}

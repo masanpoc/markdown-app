@@ -1,0 +1,11 @@
+.text {
+    margin: 0 2.5%;
+    height: 80%;
+    border: 1px solid gray;
+    overflow: auto;
+    background-color:  #c3f7dc;
+}
+
+.resize:hover {
+    cursor: pointer;
+}
